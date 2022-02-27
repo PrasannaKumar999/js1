@@ -1,0 +1,176 @@
+body{
+    background-color:#3D087B;
+}
+.clock{
+    margin:5%;
+}
+.lbox1{
+    width:45vw;
+    height:60vh;
+    background-color: white;
+    border-radius: 10px;
+    margin:2% 5%;
+}
+.line1, .line2, .line3, .line4 {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-size: 18px; 
+    padding-top:5vh;
+}
+.straightline{
+    border-left:1px solid grey;
+    height:30px;
+    margin-left:10%;
+}
+.inputtime{
+border: 1px solid #EDEDED;
+width: 15em;
+border-radius:4px;
+opacity: 1;
+}
+.lbox2{
+    width:45vw;
+    height:10vh;
+    background-color:#8A11BF;
+    border-radius: 10px;
+    margin:2% 5%;
+    color: white;
+    font-size:25px;
+    font: normal normal 900 27px/34px Bauhaus Hv BT;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+    text-align:center;
+    line-height:10vh;
+    }
+    .lbox3{
+        width: 23vw;
+        height:6vh;
+        background-color: #8E53F0;
+        margin: 2% 5%;
+        border-radius: 5px;
+        color: white;
+        text-align: left;
+        font: normal normal 600 24px/38px Manrope;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        text-align:center;
+        line-height:5vh;
+        background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+    }
+    .lbox3:hover{
+        background: transparent linear-gradient(113deg, #F1A7C5 0%,#FC5EFF 40%,  #CB52F8 81%, #6E54EC 100%);
+    }
+    .lbox4{
+        position: relative;
+        bottom:10vh;
+        left:30vw;
+        width:19vw;
+        height:15vh;
+        background-color:  #9140B5;
+        border-radius: 10px;
+        font: normal normal bold 15px/25px Manrope;
+        color: #F25CFE;
+        text-align:left;
+        padding-left:15px;
+        line-height:25px;
+    }
+    .topmessagebox{
+        position: absolute;
+        top:100px;
+        left:35vw;
+        width:12vw;
+        height:8vh;
+        background-color: wheat;
+        border-radius: 10px;
+        text-align: left;
+        font: normal normal normal 14px/20px Inter;
+        letter-spacing: 0px;
+        word-spacing: 5px;
+        color: #858585;
+        opacity: 1;
+        padding: 15px;
+       
+    }
+    .bottommessagebox{
+        position: absolute;
+        top:58vw;
+        left:5vw;
+        width:15vw;
+        height:5vh;
+        background-color: wheat;
+        border-radius: 10px;
+        text-align: left;
+        font: normal normal normal 14px/20px Inter;
+        letter-spacing: 0px;
+        color: #858585;
+        opacity: 1;
+        padding: 15px;
+        box-shadow: 10px 0px 20px #00000029;
+    }
+    .rbox1{
+        width:30vw;
+        height:15vh;
+        background-color: white;
+        position: relative;
+        left:52vw;
+        bottom:115vh;
+        display: flex;
+        flex-wrap: row;
+        justify-content:space-evenly;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .time1,.time2,.time3{
+        background: url(timeline.svg);
+        height:10vh;
+        font-size:20px;
+        text-align: center;
+        padding: 8px;
+        line-height:5vh;
+        color: #8A11BF;
+    }
+    .time4{
+    background: url(AM_svg.svg);
+    height:10vh;
+    font-size:20px;
+    text-align: center;
+    padding: 8px;
+    line-height:8vh;
+    color: white;
+    }
+    .rbox2{
+        width:30vw;
+        height:15vh;
+        background-color: white;
+        position:relative;
+        bottom:105vh;
+        left:52vw;
+        border-radius: 10px;
+        text-align: left;
+        font: normal normal 900 20px/85px Bauhaus Hv BT;
+        letter-spacing: 0px;
+        color: #8E53F0;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .rbox3{
+        width:30vw;
+        height:50vh;
+        background-color: white;
+        border-radius: 10px;
+        position: relative;
+        bottom: 95vh;
+        left:52vw;
+        background-image: url('Component\ 30\ –\ 1.svg');
+        background-position: center;
+    }
+    .note{
+        position: relative;
+        bottom:92vh;
+        left:52vw;
+        color: #B85EBF;
+    }
